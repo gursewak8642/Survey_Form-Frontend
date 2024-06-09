@@ -1,0 +1,56 @@
+/* .response-page {
+    margin: 20px;
+  }
+  
+  .response-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .response-item h2, .response-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .response-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .response-item li {
+    margin-bottom: 5px;
+  }
+   */
+
+
+
+   /* ResponsePage.css */
+
+.response-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .response-item {
+    margin-bottom: 20px;
+  }
+  
+  .response-item h2 {
+    margin-bottom: 10px;
+  }
+  
+  .response-item ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .response-item ul li {
+    margin-bottom: 10px;
+  }
+  
+  .response-item ul li strong {
+    font-weight: bold;
+  }
+  

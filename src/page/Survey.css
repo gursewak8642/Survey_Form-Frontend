@@ -1,0 +1,117 @@
+/* src/components/SurveySelection.css
+.survey-selection {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .survey-selection h2 {
+    margin-bottom: 20px;
+  }
+  
+  .survey-selection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .survey-selection li {
+    margin-bottom: 10px;
+  }
+  
+  .survey-selection button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+   */
+
+
+   /* src/components/SurveySelection.css */
+body {
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.survey-selection {
+    max-width: 400px;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.survey-selection h2 {
+    font-size: 28px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.survey-selection h3 {
+    font-size: 22px;
+    color: #6c6c6c;
+    margin-bottom: 30px;
+}
+
+.survey-selection ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.survey-selection li {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.survey-selection label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.survey-selection input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+    accent-color: #007bff;
+    vertical-align: middle;
+}
+
+.survey-selection .next-button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.survey-selection .next-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.survey-selection .next-button:active {
+    background-color: #004494;
+    transform: translateY(0);
+}
+
+.survey-selection .next-button:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}

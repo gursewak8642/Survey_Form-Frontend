@@ -1,0 +1,169 @@
+/* Quiz.css
+.quiz {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .question-section {
+    margin-bottom: 20px;
+  }
+  
+  .question-count {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .question-text {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .answer-section button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .answer-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .score-section {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .score-section button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .score-section button:hover {
+    background-color: #d32f2f;
+  }
+   */
+
+
+   /* QuizPage.css */
+
+/* General quiz container styling */
+.quiz {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the question section */
+.question-section {
+    margin-bottom: 20px;
+}
+
+/* Question count display styling */
+.question-count {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4CAF50;
+}
+
+/* Question text styling */
+.question-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Answer button styling */
+.answer-section button {
+    margin: 5px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button hover effect */
+.answer-section button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Submit button styling */
+.submit-button {
+    margin-left: 42%;
+    width: 200px;
+    margin-top: 20px;
+    padding: 8px 10px; /* Reduced padding */
+    font-size: 16px; /* Reduced font size */
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196F3;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Submit button hover effect */
+.submit-button:hover {
+    background-color: #0b7dda;
+    /* transform: scale(1.05); */
+}
+
+/* Responsive design: smaller screens */
+@media (max-width: 600px) {
+    .quiz {
+        padding: 15px;
+    }
+
+    .question-text {
+        font-size: 20px;
+    }
+
+    .answer-section button,
+    .submit-button {
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px;
+    }
+
+    .submit-button {
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+    }
+}
+ 
